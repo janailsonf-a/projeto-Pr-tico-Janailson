@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  background: linear-gradient(236.85deg, #041832 27.26%, #3468a7 96.03%);
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  background:#333439;
+  color: #ffffff;
+  margin: 64px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  padding: 64px;
+}
+.cabecalho{
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex; 
+}
+
+
+.perfil-foto {
+  border-radius: 460px;
+  max-height: 200px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulo {
+  margin-left: 16px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.titulo h3 {
+  font-weight: 400;
+  font-size: 24px;
+
+ 
+}
+
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(230.65deg, #499CFE 27.49%, #9CC8FC 83.19%);
+  margin-top: 32px;
+  padding: 32px;
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+border-radius: 20px;
+}
+
+.projetos-titulos{
+  color:#1C1C1C;
+  ;
+    list-style: none;
+    font-weight: 70px;
+    font-size: 36px;
+}
+
+.projetos-item{
+  list-style-type: none;
+  font-size: 24px;
+  font-weight: 400px;
+  line-height: 56px;
+}
+
+.projetos-item a{
+color: #1C1C1C1;
+text-decoration:none;
+}
+
+.instagram{
+max-width: 30px;
+max-height: 30px;
+}
+
+.github{
+  max-width: 30px;
+  max-height: 30px;
+  position: absolute;
+  left: 214px ;
+  top: 370px;
+}
+
+.linkedin {
+  max-width: 30px;
+  max-height: 30px;
+  position: absolute;
+  left: 250px ;
+  top: 370px;
+}
+
+.light {
+  background: #F7F7F7;
+}
+
+.light .container{
+  background: linear-gradient(236.85deg, #041832 27.26%, #3468A7 96.03%);
+color: #ffffff;
+}
+
+
+.conquistas{
+  position: absolute;
+  width: 288px;
+  height: 628px;
+  left: 950px;
+  top: 360px;
+  
+  background: linear-gradient(230.65deg, #499CFE 27.49%, #9CC8FC 83.19%);
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  border-radius: 20px;
+}
+
+.projetos ul {
+  list-style: none;
+  padding-left: 0;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.projetos li {
+  list-style-type: none;
+  font-size: 20px;
+  line-height: 2em;
+  
+}
+
+.projetos{
+  width: 288px;
+  height: 628px;
+  left: 998px;
+  top: 303px;
+  
+  background: linear-gradient(230.65deg, #499CFE 27.49%, #9CC8FC 83.19%);
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  border-radius: 20px;
+}
+
+.conquistas li{
+display: flex;
+width: 118px;
+height: 118px;
+left: 1081px;
+top: auto;
+
+}
+
+
